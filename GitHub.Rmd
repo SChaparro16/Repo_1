@@ -1,0 +1,10 @@
+---
+title: "Prueba GitHub"
+author: "Sebastian Chaparro Alonso"
+date: "5/8/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
