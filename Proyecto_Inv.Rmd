@@ -3,8 +3,8 @@ title: "Primera entrega - Proyecto Final"
 author: "Sebastian Chaparro Alonso, Manuel Cardenas, Santiago Bottia"
 date: "12/8/2021"
 output: pdf_document
-Mainfont: Arial
-Fontsize: 12pt
+mainfont: Arial
+fontsize: 11pt
 ---
 
 Este documento presenta el objeto de interés de la investigación. Adicionalmente, una breve descripción de la base de datos propuesta
