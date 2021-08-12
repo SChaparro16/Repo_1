@@ -3,9 +3,8 @@ title: "Primera entrega - Proyecto Final"
 author: "Sebastian Chaparro Alonso, Manuel Cardenas, Santiago Bottia"
 date: "12/8/2021"
 output: pdf_document
-mainfont: Arial
-fontsize: 11pt
 ---
+
 
 Este documento presenta el objeto de interés de la investigación. Adicionalmente, una breve descripción de la base de datos propuesta
 
@@ -42,29 +41,80 @@ Corte transversal - Año 2020
 
 ### Variables
 
-1. **Directorio:** Llave vivienda - Tipo: Numérico *"int"*
-2. **Secuencia_p** : Llave hogar - Tipo: Numerico *"int"*
-3. **Mes:** Mes 01 enero 02 febrero ... - Tipo: Numerico/Character *"int"*
-4. **Clase:** 1 cabecera (Urbano) 2 resto (Rural) - Tipo: Numerico *"int"*
-5. **Dominio:** Municipio - Tipo: Carácter *"Chr"*
-6. **P5000:** ¿Cuantos cuartos hay disponibles en el hogar? -  Tipo: Numerico *"int"*
-7. **P5010:** ¿En cuántos de esos cuartos duermen las personas de este hogar? - Tipo: Numerico *"int"*
-8. **P5090:** ¿Cual es la naturaleza de la vivienda? (1-Propia, totalmente pagada. 2-Propia, la están pagando. 3- En arriendo o subarriendo. 4-En usufructo  5-Posesión sin titulo ocupante. 6-Otra) - Tipo: Numerico *"int"*
-9. **P5100:** ¿cuánto pagan mensualmente por cuota de amortización? valor$ - Tipo: Numerico *"int"*
-10. **P5130:** ?cu?nto estima que tendr?a que pagar mensualmente? valor $ *"int"*
-11. **P5140:** ?cu?nto pagan mensualmente por arriendo? *"int"*
-12. **Nper :** N?mero de personas en el hogar  *"int"*
-13. **Npersug:** N?mero de personas en la unidad de gasto *"int"*
-14. **Ingtotug:** Ingreso total de la unidad de gasto antes de imputacion de arriendos a propietarios y usufructuarios *"int"*
-15. **Intotuggarr:** Ingreso total de la unidad de gasto con imputacion de arriendo a propietarios y usufructuarios *"int"*
-16. **Inpcug:** Ingreso perc?pita de la unidad de gasto con imputacion de arriendo a propietarios y usufructuarios *"int"*
-17. **Li:** Establece el límite de ingresos por debajo del cual un hogar es considerado en pobreza extrema -  Tipo: Numerico *"num"*
-18. **Lp:** Establece límite de ingresos por debajo del cual un hogar es considerado en pobreza.  -  Tipo: Numerico *"num"*
-19. **Pobre:** Idenfifica los hogares en condiciones de pobreza.  Pobre=1 No pobre=0 -  Tipo: Numerico *"int"*
-20. **Indigente:** Idenfifica los hogares en condiciones de pobreza extrema. Indigente=1 No indigente=0 - Tipo: Numerico  *"int"*
-21. **Npobres:** Número de personas en hogares clasificados como pobres. - Tipo: Numerico  *"int"*
-22. **VNindigentes:** Número de personas en hogares clasificados en pobreza extrema. - Tipo: Numerico  *"int"*
-23. **Fex_c:** Factor de expansión - Tipo: Numerico *"num"* 
+1. **Directorio**
+Llave vivienda - Tipo: Numérico *"int"*
+
+2. **Secuencia_p**
+Llave hogar - Tipo: Numérico *"int"*
+
+3. **Mes**
+Mes 01 enero 02 febrero ... - Tipo: Numérico/Character *"int"*
+
+4. **Clase**
+1 cabecera (Urbano) 2 resto (Rural) - Tipo: Numérico *"int"*
+
+5. **Dominio**
+Municipio - Tipo: Carácter *"Chr"*
+
+6. **P5000**
+¿Cuantos cuartos hay disponibles en el hogar? -  Tipo: Numérico *"int"*
+
+7. **P5010**
+¿En cuántos de esos cuartos duermen las personas de este hogar? - Tipo: Numérico *"int"*
+
+8. **P5090**
+¿Cual es la naturaleza de la vivienda(1-Propia, totalmente pagada. 2-Propia, la están pagando. 3- En arriendo o subarriendo. 4-En usufructo  5-Posesión sin titulo ocupante. 6-Otra)?  - Tipo: Numérico *"int"*
+
+9. **P5100**
+¿cuánto pagan mensualmente por cuota de amortización? valor$ - Tipo: Numerico *"int"*
+
+10. **P5130**
+¿cuanto estima que tendría que pagar mensualmente? valor $ - Tipo: Numerico *"int"*
+
+11. **P5140**
+¿cuanto pagan mensualmente por arriendo? - Tipo: Numerico *"int"*
+
+12. **Nper**
+Numero de personas en el hogar - Tipo: Numerico *"int"*
+
+13. **Npersug**
+Numero de personas en la unidad de gasto - Tipo: Numerico *"int"*
+
+14. **Ingtotug**
+Ingreso total de la unidad de gasto antes de imputación de arriendos a propietarios y usufructuarios - Tipo: Numerico *"int"*
+
+15. **Intotuggarr**
+Ingreso total de la unidad de gasto con imputación de arriendo a propietarios y usufructuarios - Tipo: Numerico *"int"*
+
+16. **Inpcug**
+Ingreso per-capita de la unidad de gasto con imputación de arriendo a propietarios y usufructuarios - Tipo: Numerico *"int"*
+
+17. **Li** 
+Establece el límite de ingresos por debajo del cual un hogar es considerado en pobreza extrema -  Tipo: Numérico *"num"*
+
+18. **Lp** 
+Establece límite de ingresos por debajo del cual un hogar es considerado en pobreza.  -  Tipo: Numérico *"num"*
+
+19. **Pobre** 
+Identifica los hogares en condiciones de pobreza.  Pobre=1 No pobre=0 -  Tipo: Numérico *"int"*
+
+20. **Indigente** 
+Identifica los hogares en condiciones de pobreza extrema. Indigente=1 No indigente=0 - Tipo: Numérico  *"int"*
+
+21. **Npobres** 
+Número de personas en hogares clasificados como pobres. - Tipo: Numérico  *"int"*
+
+22. **VNindigentes** 
+Número de personas en hogares clasificados en pobreza extrema. - Tipo: Numérico  *"int"*
+
+23. **Fex_c** 
+Factor de expansión - Tipo: Numérico *"num"* 
+
+24. **Depto**
+Clasificación del departamento - Tipo: Numérico  *"int"*
+
+25. **Fex_dpto:** 
+Factor de expansion, nivel departamental - Tipo: Numérico *"num"* 
      
 ### Accesibilidad de la base de datos
 
