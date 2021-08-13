@@ -1,12 +1,12 @@
 ---
-title: "Primera entrega - Proyecto Final"
+title: "Proyecto Final - Entrega 1"
+subtitle: "Fundamentos de programacion"
 author: "Sebastian Chaparro Alonso, Manuel Cardenas, Santiago Bottia"
-date: "12/8/2021"
+date: "Agosto 12 del 2021"
 output: pdf_document
 ---
 
-
-Este documento presenta el objeto de interés de la investigación. Adicionalmente, una breve descripción de la base de datos propuesta
+El presente documento contiene la pregunta de investigacion junto con una descripcion de la base de datos 
 
 ## Integrantes
 
@@ -22,7 +22,7 @@ Este documento presenta el objeto de interés de la investigación. Adicionalmen
 
 ### Entidad que produjo la base de datos
 
-DANE
+Departamento Administrativo Nacional de Estadística - DANE
 
 ### Nombre de la base de datos
 
@@ -36,8 +36,9 @@ Corte transversal - Año 2020
 
 ### Dimensiones
 
-- 231831 observaciones
-- 25 Variables
+Observaciones: 231.831 
+
+Variables: 25 
 
 ### Variables
 
@@ -66,28 +67,28 @@ Municipio - Tipo: Carácter *"Chr"*
 ¿Cual es la naturaleza de la vivienda(1-Propia, totalmente pagada. 2-Propia, la están pagando. 3- En arriendo o subarriendo. 4-En usufructo  5-Posesión sin titulo ocupante. 6-Otra)?  - Tipo: Numérico *"int"*
 
 9. **P5100**
-¿cuánto pagan mensualmente por cuota de amortización? valor$ - Tipo: Numerico *"int"*
+¿cuánto pagan mensualmente por cuota de amortización? valor$ - Tipo: Numérico *"int"*
 
 10. **P5130**
-¿cuanto estima que tendría que pagar mensualmente? valor $ - Tipo: Numerico *"int"*
+¿cuanto estima que tendría que pagar mensualmente? valor $ - Tipo: Numérico *"int"*
 
 11. **P5140**
-¿cuanto pagan mensualmente por arriendo? - Tipo: Numerico *"int"*
+¿cuanto pagan mensualmente por arriendo? - Tipo: Numérico *"int"*
 
 12. **Nper**
-Numero de personas en el hogar - Tipo: Numerico *"int"*
+Numero de personas en el hogar - Tipo: Numérico *"int"*
 
 13. **Npersug**
-Numero de personas en la unidad de gasto - Tipo: Numerico *"int"*
+Numero de personas en la unidad de gasto - Tipo: Numérico *"int"*
 
 14. **Ingtotug**
-Ingreso total de la unidad de gasto antes de imputación de arriendos a propietarios y usufructuarios - Tipo: Numerico *"int"*
+Ingreso total de la unidad de gasto antes de imputación de arriendos a propietarios y usufructuarios - Tipo: Numérico *"int"*
 
 15. **Intotuggarr**
-Ingreso total de la unidad de gasto con imputación de arriendo a propietarios y usufructuarios - Tipo: Numerico *"int"*
+Ingreso total de la unidad de gasto con imputación de arriendo a propietarios y usufructuarios - Tipo: Numérico *"int"*
 
 16. **Inpcug**
-Ingreso per-capita de la unidad de gasto con imputación de arriendo a propietarios y usufructuarios - Tipo: Numerico *"int"*
+Ingreso per-capita de la unidad de gasto con imputación de arriendo a propietarios y usufructuarios - Tipo: Numérico *"int"*
 
 17. **Li** 
 Establece el límite de ingresos por debajo del cual un hogar es considerado en pobreza extrema -  Tipo: Numérico *"num"*
